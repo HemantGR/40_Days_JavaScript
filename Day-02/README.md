@@ -1,7 +1,3 @@
-Here are the structured notes for **Day 2 of the 40 Days of JavaScript Journey**.
-
----
-
 # 📦 Day 2: Variables, Data Types & Memory
 
 ### 1. Understanding Variables
