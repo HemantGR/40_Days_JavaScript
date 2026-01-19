@@ -14,3 +14,46 @@ let annualSal = monthlySal * 12;
 const bonus = annualSal * (20/100);
 const ctc = annualSal + bonus;
 console.log("You make per annum as a CTC is", ctc);
+
+//Task-04
+let color = "Green";
+let action = (color === "Red") ? "STOP" : "GO";
+
+console.log(action);
+
+//Task-05
+let units = 100;
+
+// 1. Calculate Monthly Bill
+const monthlyBill = units * 150 * 30; 
+
+// 2. Calculate Annual Bill (Before Discount)
+const totalAnnualBill = monthlyBill * 12;
+
+// 3. Apply 20% Discount on the TOTAL Annual Bill
+// Formula: Total Year Cost - (Total Year Cost * 0.20)
+const finalAnnualBill = totalAnnualBill - (totalAnnualBill * 0.2);
+
+console.log("Monthly Bill: " + monthlyBill); 
+console.log("Discounted Annual Bill: " + finalAnnualBill);
+
+//Task -06
+let year = 2025;
+let res6 = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0) ? "is a leap year" : "is not a leap year";
+
+console.log(year + " " + res6);
+
+//Task-07
+let p = 10;
+let q = 50;
+let r = 25;
+
+let max = (p > q) ? ((p > r) ? p : r) : ((q > r) ? q : r);
+
+
+console.log("The numbers are: " + p + ", " + q + ", " + r);
+console.log("The maximum number is: " + max);
+
+//Task-08
+let count = 5;
+console.log(count << 1)
