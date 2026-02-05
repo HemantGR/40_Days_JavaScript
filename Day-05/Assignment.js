@@ -45,3 +45,16 @@ while (length > 0){
 
 console.log("Normal",number)
 console.log("Reverse",rev_num)
+
+
+//Task - 06
+/* 
+ For loop = It combines initialization, condition check, and increment in one statement.
+ best for when you knew the number of iteration it has to perform.
+
+ While loop = It works when the condition is true, if the condition is false it will terminate the 
+ loop, best for when you don't know the number of iteration.
+
+ Do While loop = It executes the loop at least one time if the condition is true it will continue 
+ otherwise it will stop, best for when you need the loop to run at least one time. 
+ */
