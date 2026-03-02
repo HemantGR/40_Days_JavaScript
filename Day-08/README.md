@@ -1,13 +1,4 @@
-Here are the structured study notes for **Day 8 of the 40 Days of JavaScript Journey**.
-
----
-
 # 🧠 Day 8: Execution Context & Call Stack
-
-### 🎯 Goal
-
-Deep dive into how JavaScript runs code under the hood. Understand the mechanics of Execution Context, the Call Stack, and memory management (Stack vs. Heap) to build a solid foundation for advanced topics like hoisting, closures, and asynchronous programming.
-
 ---
 
 ### 1. Core Concepts
