@@ -25,7 +25,7 @@
 // 1. Variable hoisting with `var`
 console.log(Myname); // undefined (not error: declaration is hoisted)
 var Myname = "John";
-console.log(Myname); // "Hemant"
+console.log(Myname); // "John"
 
 
 // 2. Variable hoisting with `let` and `const`
